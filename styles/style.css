@@ -335,10 +335,12 @@ button {
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
 }
-.fast-card img{
+
+.fast-card img {
     padding-left: 32px;
     padding-top: 32px;
 }
+
 .sec-card {
     width: 573px;
     height: 284px;
@@ -346,10 +348,12 @@ button {
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
 }
-.sec-card img{
+
+.sec-card img {
     padding-left: 32px;
     padding-top: 32px;
 }
+
 .third-card {
     margin: 20px auto;
     width: 573px;
@@ -358,7 +362,8 @@ button {
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
 }
-.third-card img{
+
+.third-card img {
     padding-left: 32px;
     padding-top: 32px;
 }
@@ -377,11 +382,12 @@ button {
     color: #5A5A5D;
     padding-left: 32px;
 }
+
 /* hotel card sec end  */
 
 
 /* simple card sec  */
-.img-container{
+.img-container {
 
     background-image: url(../Images/Group\ 40089.png);
     background-repeat: no-repeat;
@@ -389,46 +395,53 @@ button {
     height: 424px;
     border-radius: 16px;
 }
-.simple-place{
+
+.simple-place {
     max-width: 1170px;
     margin: 50px auto;
     display: flex;
     gap: 42px;
 }
-.text-container h2{
+
+.text-container h2 {
     font-size: 40px;
     font-weight: 800;
     color: #131318;
-    
-    
+
+
 }
-.text-container p{
+
+.text-container p {
     font-size: 16px;
     font-weight: 400;
     color: #5A5A5D;
     margin-top: 24px;
 }
-.text-container ul li{
+
+.text-container ul li {
     font-size: 16px;
     font-weight: 700;
     color: #131318;
     margin-top: 10px;
 }
-.text-container button{
+
+.text-container button {
     margin-top: 32px;
 }
-.img-container h3{
+
+.img-container h3 {
     text-align: center;
     padding-top: 176px;
     color: #FFF;
     font-size: 24px;
     font-weight: 700;
 }
-.img-container{ 
+
+.img-container {
     position: relative;
 }
 
-.img-container audio{
+.img-container audio {
     width: 500px;
     outline: none;
     padding-top: 75px;
@@ -437,4 +450,65 @@ button {
     align-items: center;
     justify-content: center;
     color: #424247;
+}
+
+/* simple card sec end  */
+
+/* newsletter section  */
+.newsletter-container {
+    display: flex;
+    margin: 50px auto;
+    max-width: 1170px;
+    gap: 10px;
+}
+
+.text-item {
+    padding: 10px 40px;
+}
+
+.text-item h3 {
+    font-size: 24px;
+    font-weight: 800;
+    color: #131318;
+}
+
+.text-item p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #5A5A5D;
+}
+
+#name {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(19, 19, 24, 0.30);
+    margin-top: 48px;
+    padding: 16px 151px 16px 20px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+#mail {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(19, 19, 24, 0.30);
+    margin-top: 16px;
+    padding: 16px 151px 16px 20px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+#Subscribe {
+    font-size: 20px;
+    font-weight: 800;
+    color: #FFF;
+    margin-top: 40px;
+    padding: 14px 215px 13px 148px;
+    border-radius: 8px;
+    background: #FF5400;
+}
+.img-item img{
+    width: 672px;
+    height: 422px;
+    border-radius: 16px;
 }
