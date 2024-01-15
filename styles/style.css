@@ -3,3 +3,44 @@
 *{
     font-family: 'Mulish', sans-serif;
 }
+/* nav container  */
+.header-sec{
+    max-width: 1170px;
+    margin: 30px auto;
+}
+.nav-container{
+    display: flex;
+    align-items: center;
+}
+.nav-container img{
+    width: 48px;
+    height: 56px;
+}
+.nav-container span{
+    color: #FF5400;
+}
+.nav-container p{
+    font-size: 36px;
+    font-weight: 800;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav>ul{
+    display: flex;
+    gap: 44px;
+}
+nav li{
+    list-style: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: #424247;
+}
+nav li a{
+    text-decoration: none;
+}
+nav li a span{
+    color: #FF5400;
+}
