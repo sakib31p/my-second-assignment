@@ -6,4 +6,7 @@
         flex-direction: column;
 
     }
+    .exp-container{
+    flex-direction: row;
+    }
 }

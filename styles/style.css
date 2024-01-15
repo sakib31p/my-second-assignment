@@ -1,46 +1,159 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900&display=swap');
 
-*{
+* {
     font-family: 'Mulish', sans-serif;
 }
+
 /* nav container  */
-.header-sec{
+.header-sec {
     max-width: 1170px;
     margin: 30px auto;
 }
-.nav-container{
+
+.nav-container {
     display: flex;
     align-items: center;
 }
-.nav-container img{
+
+.nav-container img {
     width: 48px;
     height: 56px;
 }
-.nav-container span{
+
+.nav-container span {
     color: #FF5400;
 }
-.nav-container p{
+
+.nav-container p {
     font-size: 36px;
     font-weight: 800;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-nav>ul{
+
+nav>ul {
     display: flex;
     gap: 44px;
 }
-nav li{
+
+nav li {
     list-style: none;
     font-size: 18px;
     font-weight: 400;
     color: #424247;
 }
-nav li a{
+
+nav li a {
     text-decoration: none;
 }
-nav li a span{
+
+nav li a span {
     color: #FF5400;
+}
+
+/* explore section  */
+section {
+    max-width: 1170px;
+    height: 500px;
+    background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    margin: 30px auto;
+    border-radius: 16px;
+}
+
+.exp-container h1 {
+    font-size: 64px;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+}
+
+.exp-container p {
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.exp-container {
+    padding: 106px;
+}
+
+.button-sec {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+    padding: 16px 84px 16px 16px;
+}
+
+button {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+    padding: 16px 84px 16px 16px;
+    background: #FF5400;
+}
+
+.exp-button a {
+    text-decoration: none;
+
+}
+
+.exp-button {
+    text-align: center;
+    margin-top: -76px;
+}
+
+/* our populor tour  */
+.popular-sec {
+    display: flex;
+    max-width: 1170px;
+    margin: 20px auto;
+    gap: 50px;
+}
+
+.img-container {
+    max-width: 540px;
+    height: 550px;
+    margin-top: 20px;
+}
+
+.text-container h2 {
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 20px;
+    color: #131318;
+}
+
+.text-container h3 {
+    font-size: 16px;
+    font-weight: 400;
+    width: 577px;
+    margin-top: 24px;
+    color: rgba(19, 19, 24, 0.70);
+
+}
+.text-container ul >li{
+    font-size: 16px;
+    font-family: 400px;
+    width: 525px;
+    height: 52px;
+    color: rgba(19, 19, 24, 0.70);
+}
+.text-container p{
+    font-size: 16px;
+    font-weight: 400px;
+    width: 530px;
+    height: 52px;
+    margin: 24px;
+    color: rgba(19, 19, 24, 0.70);
+}
+.text-container button{
+    margin-top: 46px;
 }
