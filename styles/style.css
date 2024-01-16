@@ -169,7 +169,7 @@ button {
 /* shared style start  */
 .banner {
     text-align: center;
-    margin: 50px auto;
+    margin: 100px auto;
     max-width: 1170px;
 
 }
@@ -572,4 +572,8 @@ button {
     color: #131318;
     margin-top: -60px;
     margin-bottom: 110px;
+}
+/* footer end  */
+.hide{
+    display: none;
 }

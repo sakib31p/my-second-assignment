@@ -1,13 +1,147 @@
-@media screen and (max-width:600px){
-    nav{
-     margin: 10px;
-     padding: 10px;
+@media screen and (max-width:600px) {
+    .header-sec {
+
+        padding: 10px;
     }
-    .popular-sec,nav,nav ul{
+
+    nav,
+    nav ul {
         flex-direction: column;
 
     }
-    .popular-sec{
 
+    .button-sec {
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+        margin: 5px auto;
+
+        align-items: center;
+    }
+
+    nav ul {
+        gap: 4px;
+    }
+
+    .exp-container h1 {
+        margin-left: 64px;
+        margin-top: -20px;
+        font-size: 22px;
+        width: 205px;
+        height: 25;
+    }
+
+    .exp-container p {
+        margin-top: 5px;
+        max-width: 304px;
+        height: 63px;
+    }
+
+    .sec-1 background-image {
+        width: 335px;
+        height: 483px;
+        flex-shrink: 0;
+    }
+
+    .popular-sec {
+        flex-direction: column;
+        margin: 0px;
+    }
+
+    .text-container {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .banner-title h2 {
+        width: 178px;
+        height: 25;
+        padding-top: 100px;
+    }
+
+    .img-container {
+        width: 335px;
+        height: 342px;
+        margin-bottom: 150px;
+
+    }
+
+    .banner-img {
+        flex-direction: column;
+        margin: 5px auto;
+    }
+
+    .banner {
+        text-align: center;
+        margin-top: 100px auto;
+    }
+
+    .banner-title {
+        font-size: 20px;
+        font-weight: 800;
+    }
+
+    .banner2-img {
+        flex-direction: column;
+        margin: 5px auto;
+        gap: 20px;
+    }
+    .banner3-img{
+        flex-direction: column;
+        margin: 5px auto;
+        gap: 20px;
+    }
+    .hotel-card{
+        flex-direction: column;
+        margin: 5px auto;
+    }
+    .simple-place{
+        flex-direction: column;
+        padding: 5px;
+    }
+    .text-container{
+        padding: 5px;
+    }
+    .img-container{
+        width: 335px;
+        height: 200px;
+    }
+    .img-container audio{
+        width: 300px;
+        height: 15px;
+        padding-top: -300px;
+    }
+    .newsletter-container{
+        flex-direction: column;
+    }
+    .social-media{
+    padding-left: 100px;
+    /* padding-top: 33px; */
+
+    }
+
+
+
+}
+/* laptob  */
+@media screen and (min-width:600px) and (max-width:992px) {
+    .popular-sec{
+     flex-direction: column;
+     padding-left: 10px;
     
+    }
+    .img-container{
+        margin-bottom: 40px;
+    }
+    .simple-place{
+        flex-direction: column;
+        padding-left: 10px;
+    }
+    .newsletter-container{
+        flex-direction: column;
+    }
+    .social-media{
+        padding-left: 350px;
+    
+        }
 }
