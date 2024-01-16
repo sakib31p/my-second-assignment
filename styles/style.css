@@ -87,8 +87,10 @@ nav li a span {
     width: 174px;
     height: 52px;
     border-radius: 8px;
+    margin-right: 24px;
     background: #FFF;
     padding: 16px 84px 16px 16px;
+    
 }
 
 button {
@@ -108,6 +110,7 @@ button {
 .exp-button {
     text-align: center;
     margin-top: -76px;
+    
 }
 
 /* our populor tour  */
@@ -511,4 +514,62 @@ button {
     width: 672px;
     height: 422px;
     border-radius: 16px;
+}
+/* news letter end  */
+
+/* footer sec  */
+.footer-container{
+    max-width: 1400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-container img{ 
+    width: 48px;
+    height: 56px;
+}
+.footer-container span {
+    color: #FF5400;
+}
+
+.footer-container p {
+    font-size: 36px;
+    font-weight: 800;
+    
+}
+.footer-content{
+    font-size: 16px;
+    font-weight: 400;
+    align-items: center;
+    text-align: center;
+}
+.social-media {
+    padding-left: 555px;
+    padding-top: 33px;
+}
+.tww{
+    padding-right: 24px;
+}
+.fb{
+    padding-right: 24px;
+}
+.h{
+    width: 872px;
+    height: 1px;
+    border: none;
+    background: rgba(19, 19, 24, 0.10);
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    margin-bottom: 180px;
+
+}
+.footer-copyright{
+    text-align: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 300;
+    color: #131318;
+    margin-top: -60px;
+    margin-bottom: 110px;
 }
